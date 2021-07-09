@@ -1,15 +1,28 @@
-for(const ans = 1; ans<=100; ans++){
-    if(ans % 3 == 0 && ans % 5 == 0){
-        console.log("FizzBuzz");
+
+    const indicate =document.getElementById("indicate");
+    const result = document.getElementById("result");
+    function writeResult(ele){
+     indicate.value = indicate.value+ele.value
     }
-    else if(ans % 3 == 0){
-        console.log("Fizz");
+    function calc(){
+    if(indicate.value == ""){
+            return
+        }
+        result.value = new function(return);
     }
-    else if(ans % 5 == 0){
-        console.log("Buzz");
+    for(const indicate = 1; indicate<=100; indicate++){
+    if(indicate.value = indicate % 3 == 0 && indicate % 5 == 0){
+       result.value = "FizzBuzz";
     }
-    else{
-        console.log(ans);
+    else if(indicate % 3 == 0){
+       resulr.value = "Fizz";
     }
+    else if(indicate % 5 == 0){
+        resulr.value = "Buzz";
+    }else{
+        indicate
+    }
+    paragraph.innerText = 'result';
+
 }
   
